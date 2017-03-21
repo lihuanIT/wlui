@@ -1,0 +1,44 @@
+.compview-con {
+    position: relative;
+    h5 {
+        font-size: 22px;
+        i {
+            margin-left: .5em;
+            color: #888;
+            font-size: .8em;
+            cursor: pointer;
+            transition: color 0.3s;
+            &:hover {
+                color: #aaa;
+            }
+        }
+    }
+    h6 {
+        font-size: 18px;
+        height: 3.5em;
+        line-height: 3.5em;
+        &:before {
+            content: '';
+            border-left: 4px solid #ccc;
+            margin-right: .5em;
+        }
+    }
+}
+
+.compview-goback {
+    position: absolute!important;
+    top: 0;
+    right: 0;
+}
+
+.compview-desc {
+    font-size: 13px;
+    margin: 1.4em 0 2em 0;
+    border: 1px solid #ccc;
+    padding: 1.3em;
+    max-width: 50em;
+    b {
+        color: #108ee9;
+        margin-right: .5em;
+    }
+}

@@ -1,0 +1,7 @@
+node_modules
+public/build
+typings
+typings.json
+dist
+*.log
+yarn.lock
